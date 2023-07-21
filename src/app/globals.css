@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-hex: #f3f3f3;
+
+  --background-0-rgb: 18,15,10,1;
+  --background-25-rgb: 29,29,18,1;
+  --background-50-rgb: 24,29,18,1;
+  --background-75-rgb: 25,36,27,1;
+  --background-100-rgb: 19,28,20,1;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-hex: #f3f3f3;
+
+    --background-0-rgb: 18,15,10,1;
+    --background-25-rgb: 29,29,18,1;
+    --background-50-rgb: 24,29,18,1;
+    --background-75-rgb: 25,36,27,1;
+    --background-100-rgb: 19,28,20,1;
+  }
+}
+
+body {
+  color: var(--foreground-hex);
+  background: linear-gradient(
+    0deg,
+    rgba(var(--background-0-rgb)) 0%,
+    rgba(var(--background-25-rgb)) 25%,
+    rgba(var(--background-50-rgb)) 50%,
+    rgba(var(--background-75-rgb)) 75%,
+    rgba(var(--background-100-rgb)) 100%
+  );
+  background-attachment: fixed;
+}
+
+.typewriter::after {
+  content: '_';
+  background-color: white;
+  animation: typewriter-cursor 0.5s infinite step-start;
+}
+
+@keyframes typewriter-cursor {
+  50% {
+  background-color: transparent;
+  opacity: 0;
+  }
+}
