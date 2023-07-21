@@ -1,18 +1,22 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { fontNixieOne, fontMajorMonoDisplay } from "./utils/fonts"
-import Link from "next/link"
-
+import FramerTransition from './utils/FramerTransition'
+import HomeIcon from './ui-components/HomeIcon'
 
 export const metadata: Metadata = {
   title: "Tymoteusz Suszczynski",
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-
   return (
-    <html className={`${fontNixieOne.variable} ${fontMajorMonoDisplay.variable}`} lang="en">
-      <body className="font-body scroll-smooth">{children}</body>
+    <html className={`${fontNixieOne.variable} ${fontMajorMonoDisplay.variable} scroll-smooth`} lang="en">
+      <body className="font-body scroll-smooth">
+            <HomeIcon />
+            <FramerTransition>
+                {children}
+            </FramerTransition>
+      </body>
     </html>
   )
 }

@@ -29,8 +29,8 @@ export default function Home() {
             </OnScroll>
             <p className="pb-32 text-xl text-justify">
                 I guess you could call me a <b>Software Engineer</b>,
-                but that's not the only thing I'd like to do with my career...
-                <br /><br />Aside from writing code across the <b>full-stack</b>, I'm also interested
+                but that&aposs not the only thing I&apos;d like to do with my career...
+                <br /><br />Aside from writing code across the <b>full-stack</b>, I&aposm also interested
                 in <b>computer architecture, deep learning</b> and all things <b>CGI & Design</b>
                 .
             </p>
@@ -42,11 +42,11 @@ export default function Home() {
             <p className="pb-8 text-xl text-justify">
                 Inspired by the insane home-cooked VFX made by youtubers like <b>Corridor Digital</b> and <b>Freddie Wong</b>,
                 I decided to try it out for myself. I quickly fell down the digital rabbit hole of CGI and inhaled everything.
-                <br /><br />I find it's technical while also letting my creativity and imagination shine through.
-                I'm especially interested in composition and colour theory,
+                <br /><br />I find it&apos;s technical while also letting my creativity and imagination shine through.
+                I&apos;m especially interested in composition and colour theory,
                 because of the transferrable uses is has across photography, design, film, rendering etc.
                 <br /><br />
-                Anyway, here's some 3D renders I made in my spare time...
+                Anyway, here&apos;s some 3D renders I made in my spare time...
             </p>
             <div className="w-full flex flex-col items-center">
                 <Gallery>
@@ -55,9 +55,9 @@ export default function Home() {
                     <Link href="/view/miniature"><GalleryImage src={miniature}/></Link>
                     <Link href="/view/cube"><GalleryImage src={cube}/></Link>
                     <Link href="/view/mountains"><GalleryImage src={mountains}/></Link>
-                    <Link href="/archviz"><GalleryImage src={exterior}/></Link>
+                    <Link href="/archviz" scroll={false}><GalleryImage src={exterior}/></Link>
                 </Gallery>
-                <Link onClick={() => document.getElementById("main")?.scrollIntoView({behavior: "smooth"})} href="/home/content" scroll={false}>
+                <Link href="/archviz" scroll={false}>
                     <div className="w-32 text-center font-display text-sm border-solid border-4 hover:bg-slate-200 hover:text-black transition-colors duration-100 cursor-pointer p-1 m-16">
                         archviz gallery
                     </div>
