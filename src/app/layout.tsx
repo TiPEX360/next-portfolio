@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html className={`${fontNixieOne.variable} ${fontMajorMonoDisplay.variable} scroll-smooth`} lang="en">
-      <body className="font-body scroll-smooth">
+      <body className="font-body scroll-smooth overlow-x-clip">
             <HomeIcon />
             <FramerTransition>
                 {children}

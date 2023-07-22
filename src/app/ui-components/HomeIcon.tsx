@@ -14,7 +14,7 @@ export default function HomeIcon() {
     }
 
     return (
-        <div className="fixed top-0 hover:bg-white hover:text-black cursor-pointer text-3xl p-2 text-gray-200 font-display" onClick={goBack}>{pathname.startsWith("/home") ? "ts." : back()}</div>
+        <div className="mix-blend-difference fixed top-0 hover:bg-white hover:text-black cursor-pointer text-3xl p-2 text-gray-200 font-display" onClick={goBack}>{pathname.startsWith("/home") ? "ts." : back()}</div>
             
     )
 }
