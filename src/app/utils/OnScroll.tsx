@@ -12,19 +12,21 @@ export default function OnScroll({children} : {children: React.ReactNode}) {
             cleanUp()
         }
     }
-  
+
     const cleanUp = () => {
         window.removeEventListener("scroll", onScroll)
     }
   
     useEffect(() => {
         window.addEventListener('scroll', onScroll)
+        onScroll()
         return cleanUp
     }, [])
   
-    return(
-        !visible && <div style={{opacity: '0'}} ref={ref}>
-            {children}
-        </div> || visible && children
-    )
+    const placeholder = <div ref={ref}>
+                         
+                        </div>
+
+    if(!visible) return placeholder
+    return children
   }

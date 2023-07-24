@@ -5,10 +5,12 @@ import interior2 from '../../../public/assets/images/interior2.png'
 import interior3 from '../../../public/assets/images/interior3.png'
 import interior4 from '../../../public/assets/images/interior4.png'
 import type { StaticImageData } from 'next/image'
+import { motion, } from 'framer-motion'
 import { useEffect } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
 
 export default function Page() {
+    useEffect(() => scrollTo({top: 0, behavior: "smooth"}), [])
+
     const images: Array<StaticImageData> = [exterior, interior1, interior2, interior4, interior3]
 
     const elements = images.map<React.ReactNode>((image: StaticImageData) =>
@@ -25,7 +27,7 @@ export default function Page() {
 
             className="mb-[50vh]"
         >
-            <div className="p-2 mix-blend-difference sticky top-3/4 font-display text-8xl">ARCHVIZ</div>
+            <div className="p-2 mix-blend-difference sticky top-3/4 font-display text-6xl">ARCHVIZ</div>
             {elements}
         </motion.div>
     )

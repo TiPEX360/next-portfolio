@@ -1,6 +1,6 @@
 import ClientClosure from "./ClientClosure"
 
-export function generateStaticParams() {
+export function generateStaticParams(): {image: string}[] {
     return [
         {image: "cube"},
         {image: "miniature"},
