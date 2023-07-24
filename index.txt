@@ -1,0 +1,11 @@
+1:HL["/_next/static/media/1995bf401df60a97-s.p.woff2",{"as":"font","type":"font/woff2"}]
+2:HL["/_next/static/media/3ac9e278b157e2f6-s.p.woff2",{"as":"font","type":"font/woff2"}]
+3:HL["/_next/static/css/befd23813b2f9ccb.css",{"as":"style"}]
+0:["eMX7kIvtGAcyYY9DV9qyU",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L4",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/befd23813b2f9ccb.css","precedence":"next"}]],"$L5"]]]]
+6:I{"id":3754,"chunks":["185:static/chunks/app/layout-30a9ef03c9f3b0f2.js"],"name":"","async":false}
+7:I{"id":2659,"chunks":["185:static/chunks/app/layout-30a9ef03c9f3b0f2.js"],"name":"","async":false}
+8:I{"id":3466,"chunks":["272:static/chunks/webpack-e5a5416be8332b05.js","253:static/chunks/bce60fc1-514c7bc027a462db.js","961:static/chunks/961-8239742d4becec01.js"],"name":"default","async":false}
+9:I{"id":372,"chunks":["272:static/chunks/webpack-e5a5416be8332b05.js","253:static/chunks/bce60fc1-514c7bc027a462db.js","961:static/chunks/961-8239742d4becec01.js"],"name":"default","async":false}
+4:[["$","html",null,{"className":"__variable_00854b __variable_c05539 scroll-smooth","lang":"en","children":["$","body",null,{"className":"font-body scroll-smooth overlow-x-clip","children":[["$","$L6",null,{}],["$","$L7",null,{"children":["$","$L8",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L9",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$La",null],"segment":"__PAGE__"},"styles":[]}]}]]}]}],null]
+5:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Tymoteusz Suszczynski"}],["$","meta","2",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"any"}],["$","meta","4",{"name":"next-size-adjust"}]]
+a:E{"digest":"NEXT_REDIRECT;replace;/home"}
