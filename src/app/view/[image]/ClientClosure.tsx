@@ -12,7 +12,7 @@ export default function ClientClosure({ imageUrl }: {imageUrl: string}) {
             transition={{ease: 'linear', duration: 0.3}}
             className="px-5 flex-col w-full mx-auto my-32 max-w-4xl"
         >
-            <InstagramEmbed url={imageUrl} />
+            <InstagramEmbed data-testid="instagram-embed" url={imageUrl} />
         </motion.div>
     )
 }

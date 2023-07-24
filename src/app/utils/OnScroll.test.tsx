@@ -5,7 +5,6 @@ import '@testing-library/jest-dom'
 import React from "react"
 
 describe("<OnScroll />", () => {
-
     let scrollPosition: number = 0
     let subjectTop: number = 0
     let getBoundingClientRectSpy: jest.SpyInstance
