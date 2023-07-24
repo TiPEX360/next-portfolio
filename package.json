@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "predeploy": "DEPLOY_ENV=github npm run build && touch out/.nojekyll",
-    "deploy": "gh-pages -d out",
+    "deploy": "node ghpages.js",
     "lint": "next lint",
     "test": "jest --",
     "test:ct": "cypress run --component"
