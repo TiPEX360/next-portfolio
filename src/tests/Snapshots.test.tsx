@@ -12,6 +12,7 @@ import '@testing-library/jest-dom'
 describe("Snapshots", () => {
     beforeAll(() => {
         window.HTMLElement.prototype.scrollIntoView = jest.fn(() => {})
+        window.scrollTo = jest.fn(() => {})
     })
 
     test("/home/content", () => {
