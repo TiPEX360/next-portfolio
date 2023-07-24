@@ -33,7 +33,7 @@ jobs:
         path: |
           **/node_modules
           some/other/dependencies
-        key: npm-${{ hashFiles("**/package.json", "**/package-lock.json") }}
+        key: npm-${{ hashFiles('**/package.json', '**/package-lock.json') }}
         
 #     - run:
     - name: Install npm dependencies
