@@ -24,6 +24,30 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm ci
-    - run: npm run test
-    - run: npm run test:ct
+        
+        
+    - name: Restore node_modules cache
+      id: restore-node_modules
+      uses: actions/cache/restore@v3
+      with:
+        path: |
+          **/node_modules
+          some/other/dependencies
+        key: npm-{{ checksum "package.json" }}-{{checksum "package-lock.json" }}
+        
+#     - run:
+    - name: Install npm dependencies
+      run: "[ ! -d node_modules ] && npm ci || echo Using cached node_modules."
+
+    - name: Save node_modules cache
+      id: cache-node_modules
+      uses: actions/cache/save@v3
+      with:
+        path: |
+          **/node_modules
+        key: npm-{{ checksum "package.json" }}-{{checksum "package-lock.json" }}
+        
+    - name: Snapshots and Unit Tests
+      run: npm run test
+    - name: Component and E2E Tests
+      run: npm run test:ct
