@@ -45,7 +45,7 @@ jobs:
       with:
         path: |
           **/node_modules
-        key: npm-${{ hashFiles("**/package.json", "**/package-lock.json") }}
+        key: npm-${{ hashFiles('**/package.json', '**/package-lock.json') }}
         
     - name: Snapshots and Unit Tests
       run: npm run test
