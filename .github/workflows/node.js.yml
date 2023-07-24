@@ -33,7 +33,7 @@ jobs:
         path: |
           **/node_modules
           some/other/dependencies
-        key: npm-{{ checksum "package.json" }}-{{checksum "package-lock.json" }}
+        key: npm-${{ hashFiles("**/package.json", "**/package-lock.json") }}
         
 #     - run:
     - name: Install npm dependencies
@@ -45,7 +45,7 @@ jobs:
       with:
         path: |
           **/node_modules
-        key: npm-{{ checksum "package.json" }}-{{checksum "package-lock.json" }}
+        key: npm-${{ hashFiles("**/package.json", "**/package-lock.json") }}
         
     - name: Snapshots and Unit Tests
       run: npm run test
