@@ -1,10 +1,10 @@
 import { describe, expect, test } from "@jest/globals"
-import OnScroll from '../src/app/utils/OnScroll'
+import OnScroll from './OnScroll'
 import { render, screen, fireEvent } from '@testing-library/react'
 import '@testing-library/jest-dom'
 import React from "react"
 
-describe("OnScroll mount behaviour", () => {
+describe("<OnScroll />", () => {
 
     let scrollPosition: number = 0
     let subjectTop: number = 0
