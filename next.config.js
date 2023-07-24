@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'standalone'
+    basePath: process.env.DEPLOY_ENV === "github" ? '/next-portfolio' : '',
+    output: process.env.DEPLOY_ENV === "github" || process.env.DEPLOY_ENV === "local" ? 'export' : 'standalone'
 }
 
 module.exports = nextConfig

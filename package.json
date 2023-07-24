@@ -2,10 +2,13 @@
   "name": "next-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tipex360.github.io/next-portfolio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "predeploy": "DEPLOY_ENV=github npm run build && touch out/.nojekyll",
+    "deploy": "gh-pages -d out",
     "lint": "next lint",
     "test": "jest --",
     "test:ct": "cypress run --component"
@@ -35,6 +38,7 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
-    "@playwright/experimental-ct-react": "^1.36.1"
+    "@playwright/experimental-ct-react": "^1.36.1",
+    "gh-pages": "^5.0.0"
   }
 }
