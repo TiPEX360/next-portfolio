@@ -11,7 +11,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   
   useEffect(() => {
     const onFrame = () => {
-      // document.getElementById("portrait")?.style.transform = "translateY(" + window.scrollY / 4 + "px)"
       if (portraitRef.current != undefined) {
         portraitRef.current.style.transform = "translateY(" + window.scrollY / 4 + "px)"
       }
