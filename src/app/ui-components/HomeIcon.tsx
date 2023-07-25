@@ -1,12 +1,13 @@
 "use client"
 import { usePathname, useRouter } from "next/navigation"
 import ClientTypeAnimation from "../utils/ClientTypeAnimation"
+import { AppRouterInstance } from "next/dist/shared/lib/app-router-context"
 
 
 export default function HomeIcon() {
-    const pathname = usePathname()
-    const router = useRouter()
-    const back = () => <ClientTypeAnimation sequence={["< back"]} />
+    const pathname: string = usePathname()
+    const router: AppRouterInstance = useRouter()
+    const back: () => React.ReactNode = () => <ClientTypeAnimation sequence={["< back"]} />
     
     const goBack = () => {
         if (!pathname.includes('/home')) router.back()

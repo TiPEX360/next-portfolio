@@ -12,7 +12,7 @@ describe('<OnScroll />', () => {
   })
 
   it('scroll into view', () => {
-    const mounted: Cypress.Chainable<MountReturn> = cy.mount(
+    cy.mount(
       <div style={{height: 100, position: 'relative', top: 2000}}>
         <OnScroll>
           <div id="subject">I should only be visible on scroll.</div>
@@ -26,7 +26,7 @@ describe('<OnScroll />', () => {
   })
 
   it('scroll out of view', () => {
-    const mounted: Cypress.Chainable<MountReturn> = cy.mount(
+    cy.mount(
       <div style={{height: 2000, position: 'relative', top: 0}}>
         <OnScroll>
           <div id="subject">I should only be visible on scroll.</div>
@@ -40,7 +40,7 @@ describe('<OnScroll />', () => {
   })
 
   it('scroll outside view', () => {
-    const mounted: Cypress.Chainable<MountReturn> = cy.mount(
+    cy.mount(
       <div style={{height: 100, position: 'relative', top: 2000}}>
         <OnScroll>
           <div id="subject">I should only be visible on scroll.</div>
