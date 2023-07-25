@@ -4,7 +4,6 @@ import '@testing-library/jest-dom'
 import ContentPage from '../app/home/content/page'
 import HomePage from '../app/home/page'
 import ArchvizPage from '../app/archviz/page'
-import ViewPage from '../app/view/[image]/page'
 
 
 import '@testing-library/jest-dom'
