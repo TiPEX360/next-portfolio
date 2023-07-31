@@ -2,7 +2,7 @@
   "name": "next-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tipex360.github.io/next-portfolio",
+  "homepage": "https://tipex360.github.io/portfolio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
