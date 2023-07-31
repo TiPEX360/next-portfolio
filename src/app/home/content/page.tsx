@@ -37,11 +37,11 @@ export default function Home() {
                 in <b>computer architecture, deep learning</b> and all things <b>CGI & Design</b>
                 .
             </p>
-            <a href="/assets/documents/CV.pdf">
+            <Link href="/assets/documents/CV.pdf">
                     <div className="mx-auto w-32 text-center font-display text-sm border-solid border-4 hover:bg-slate-200 hover:text-black transition-colors duration-150 cursor-pointer p-3 m-16">
                         download resume
                     </div>
-            </a>
+            </Link>
             <OnScroll>
                 <h1 className="font-bold font-display text-4xl pb-10"><ClientTypeAnimation
                     sequence={["~> GRApHics &", 250, "~> GRApHics & desiG•N", 1000]} />
