@@ -10,7 +10,7 @@ export default function HomeIcon() {
     const back: () => React.ReactNode = () => <ClientTypeAnimation sequence={["< back"]} />
     
     const goBack = () => {
-        if (!pathname.includes('/home')) router.back()
+        if (!pathname.includes('/home')) router.push('/home/content')
         else scrollTo({top: 0})
     }
 
