@@ -19,8 +19,8 @@ export default function Page() {
     const images: Array<StaticImageData> = [exterior, exterior2, interior1, interior2, interior4, interior3, bathroom1, bathroom2]
 
     const elements = images.map<React.ReactNode>((image: StaticImageData) =>
-        <Link href={image.src}>
-            <div key={image.src} style={{ backgroundImage: `url(${image.src})` }} className={"w-full h-screen bg-fixed bg-center bg-cover"} />
+        <Link key={`${image.src}`} href={image.src}>
+            <div style={{ backgroundImage: `url(${image.src})` }} className={"w-full h-screen bg-fixed bg-center bg-cover"} />
         </Link>
     )
 
