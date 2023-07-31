@@ -11,26 +11,70 @@ exports[`Snapshots /archviz 1`] = `
     >
       ARCHVIZ
     </div>
-    <div
-      class="w-full h-screen bg-fixed bg-center bg-cover"
-      style="background-image: url(/img.jpg);"
-    />
-    <div
-      class="w-full h-screen bg-fixed bg-center bg-cover"
-      style="background-image: url(/img.jpg);"
-    />
-    <div
-      class="w-full h-screen bg-fixed bg-center bg-cover"
-      style="background-image: url(/img.jpg);"
-    />
-    <div
-      class="w-full h-screen bg-fixed bg-center bg-cover"
-      style="background-image: url(/img.jpg);"
-    />
-    <div
-      class="w-full h-screen bg-fixed bg-center bg-cover"
-      style="background-image: url(/img.jpg);"
-    />
+    <a
+      href="/img.jpg"
+    >
+      <div
+        class="w-full h-screen bg-fixed bg-center bg-cover"
+        style="background-image: url(/img.jpg);"
+      />
+    </a>
+    <a
+      href="/img.jpg"
+    >
+      <div
+        class="w-full h-screen bg-fixed bg-center bg-cover"
+        style="background-image: url(/img.jpg);"
+      />
+    </a>
+    <a
+      href="/img.jpg"
+    >
+      <div
+        class="w-full h-screen bg-fixed bg-center bg-cover"
+        style="background-image: url(/img.jpg);"
+      />
+    </a>
+    <a
+      href="/img.jpg"
+    >
+      <div
+        class="w-full h-screen bg-fixed bg-center bg-cover"
+        style="background-image: url(/img.jpg);"
+      />
+    </a>
+    <a
+      href="/img.jpg"
+    >
+      <div
+        class="w-full h-screen bg-fixed bg-center bg-cover"
+        style="background-image: url(/img.jpg);"
+      />
+    </a>
+    <a
+      href="/img.jpg"
+    >
+      <div
+        class="w-full h-screen bg-fixed bg-center bg-cover"
+        style="background-image: url(/img.jpg);"
+      />
+    </a>
+    <a
+      href="/img.jpg"
+    >
+      <div
+        class="w-full h-screen bg-fixed bg-center bg-cover"
+        style="background-image: url(/img.jpg);"
+      />
+    </a>
+    <a
+      href="/img.jpg"
+    >
+      <div
+        class="w-full h-screen bg-fixed bg-center bg-cover"
+        style="background-image: url(/img.jpg);"
+      />
+    </a>
   </div>
 </DocumentFragment>
 `;
@@ -57,7 +101,7 @@ exports[`Snapshots /home/content 1`] = `
       />
     </h1>
     <p
-      class="pb-32 text-xl text-justify"
+      class="text-xl text-justify"
     >
       I guess you could call me a 
       <b>
@@ -80,6 +124,15 @@ exports[`Snapshots /home/content 1`] = `
       </b>
       .
     </p>
+    <a
+      href="/assets/documents/CV.pdf"
+    >
+      <div
+        class="mx-auto w-32 text-center font-display text-sm border-solid border-4 hover:bg-slate-200 hover:text-black transition-colors duration-150 cursor-pointer p-3 m-16"
+      >
+        download resume
+      </div>
+    </a>
     <h1
       class="font-bold font-display text-4xl pb-10"
     >
@@ -238,12 +291,75 @@ exports[`Snapshots /home/content 1`] = `
             />
           </div>
         </a>
+        <a
+          href="/archviz"
+        >
+          <div
+            class="cursor-pointer w-full aspect-square overflow-clip"
+          >
+            <img
+              alt="/img.jpg"
+              class="object-cover h-full w-full hover:scale-105 transition-transform duration-75"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              sizes="33vw"
+              src="/_next/image?url=%2Fimg.jpg&w=3840&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=256&q=75 256w, /_next/image?url=%2Fimg.jpg&w=384&q=75 384w, /_next/image?url=%2Fimg.jpg&w=640&q=75 640w, /_next/image?url=%2Fimg.jpg&w=750&q=75 750w, /_next/image?url=%2Fimg.jpg&w=828&q=75 828w, /_next/image?url=%2Fimg.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimg.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimg.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimg.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimg.jpg&w=3840&q=75 3840w"
+              style="color: transparent;"
+              width="40"
+            />
+          </div>
+        </a>
+        <a
+          href="/archviz"
+        >
+          <div
+            class="cursor-pointer w-full aspect-square overflow-clip"
+          >
+            <img
+              alt="/img.jpg"
+              class="object-cover h-full w-full hover:scale-105 transition-transform duration-75"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              sizes="33vw"
+              src="/_next/image?url=%2Fimg.jpg&w=3840&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=256&q=75 256w, /_next/image?url=%2Fimg.jpg&w=384&q=75 384w, /_next/image?url=%2Fimg.jpg&w=640&q=75 640w, /_next/image?url=%2Fimg.jpg&w=750&q=75 750w, /_next/image?url=%2Fimg.jpg&w=828&q=75 828w, /_next/image?url=%2Fimg.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimg.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimg.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimg.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimg.jpg&w=3840&q=75 3840w"
+              style="color: transparent;"
+              width="40"
+            />
+          </div>
+        </a>
+        <a
+          href="/archviz"
+        >
+          <div
+            class="cursor-pointer w-full aspect-square overflow-clip"
+          >
+            <img
+              alt="/img.jpg"
+              class="object-cover h-full w-full hover:scale-105 transition-transform duration-75"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              sizes="33vw"
+              src="/_next/image?url=%2Fimg.jpg&w=3840&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=256&q=75 256w, /_next/image?url=%2Fimg.jpg&w=384&q=75 384w, /_next/image?url=%2Fimg.jpg&w=640&q=75 640w, /_next/image?url=%2Fimg.jpg&w=750&q=75 750w, /_next/image?url=%2Fimg.jpg&w=828&q=75 828w, /_next/image?url=%2Fimg.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimg.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimg.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimg.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimg.jpg&w=3840&q=75 3840w"
+              style="color: transparent;"
+              width="40"
+            />
+          </div>
+        </a>
       </div>
       <a
         href="/archviz"
       >
         <div
-          class="w-32 text-center font-display text-sm border-solid border-4 hover:bg-slate-200 hover:text-black transition-colors duration-100 cursor-pointer p-1 m-16"
+          class="w-32 text-center font-display text-sm border-solid border-4 hover:bg-slate-200 hover:text-black transition-colors duration-150 cursor-pointer p-1 m-16"
         >
           archviz gallery
         </div>
