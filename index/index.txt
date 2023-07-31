@@ -1,11 +1,11 @@
 1:HL["/next-portfolio/_next/static/media/1995bf401df60a97-s.p.woff2",{"as":"font","type":"font/woff2"}]
 2:HL["/next-portfolio/_next/static/media/3ac9e278b157e2f6-s.p.woff2",{"as":"font","type":"font/woff2"}]
-3:HL["/next-portfolio/_next/static/css/ae80b61acdda7546.css",{"as":"style"}]
-0:["Bl3TzijcdKiVs3xs5tedI",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L4",[[["$","link","0",{"rel":"stylesheet","href":"/next-portfolio/_next/static/css/ae80b61acdda7546.css","precedence":"next"}]],"$L5"]]]]
-6:I{"id":3754,"chunks":["185:static/chunks/app/layout-bc2ed43a0d889c45.js"],"name":"","async":false}
-7:I{"id":2659,"chunks":["185:static/chunks/app/layout-bc2ed43a0d889c45.js"],"name":"","async":false}
-8:I{"id":3466,"chunks":["272:static/chunks/webpack-b106866f697daf93.js","253:static/chunks/bce60fc1-514c7bc027a462db.js","961:static/chunks/961-f1e8de69fc16e7b8.js"],"name":"default","async":false}
-9:I{"id":372,"chunks":["272:static/chunks/webpack-b106866f697daf93.js","253:static/chunks/bce60fc1-514c7bc027a462db.js","961:static/chunks/961-f1e8de69fc16e7b8.js"],"name":"default","async":false}
+3:HL["/next-portfolio/_next/static/css/88531a25f2861b9a.css",{"as":"style"}]
+0:["8qT7ntmAm8dIxpp5WhtvI",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L4",[[["$","link","0",{"rel":"stylesheet","href":"/next-portfolio/_next/static/css/88531a25f2861b9a.css","precedence":"next"}]],"$L5"]]]]
+6:I{"id":3754,"chunks":["185:static/chunks/app/layout-c6d8b060ac75a9fb.js"],"name":"","async":false}
+7:I{"id":2659,"chunks":["185:static/chunks/app/layout-c6d8b060ac75a9fb.js"],"name":"","async":false}
+8:I{"id":3466,"chunks":["272:static/chunks/webpack-64427d14dc35bceb.js","253:static/chunks/bce60fc1-514c7bc027a462db.js","961:static/chunks/961-f1e8de69fc16e7b8.js"],"name":"default","async":false}
+9:I{"id":372,"chunks":["272:static/chunks/webpack-64427d14dc35bceb.js","253:static/chunks/bce60fc1-514c7bc027a462db.js","961:static/chunks/961-f1e8de69fc16e7b8.js"],"name":"default","async":false}
 4:[["$","html",null,{"className":"__variable_4d0479 __variable_c41a04 scroll-smooth","lang":"en","children":["$","body",null,{"className":"font-body scroll-smooth overlow-x-clip","children":[["$","$L6",null,{}],["$","$L7",null,{"children":["$","$L8",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L9",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$La",null],"segment":"__PAGE__"},"styles":[]}]}]]}]}],null]
 5:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Tymoteusz Suszczynski"}],["$","meta","2",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","link","3",{"rel":"icon","href":"/next-portfolio/favicon.ico","type":"image/x-icon","sizes":"any"}],["$","meta","4",{"name":"next-size-adjust"}]]
 a:E{"digest":"NEXT_REDIRECT;replace;/home"}
