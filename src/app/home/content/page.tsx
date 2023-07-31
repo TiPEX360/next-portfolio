@@ -11,6 +11,9 @@ import miniature from '../../../../public/assets/images/miniature.png'
 import cube from '../../../../public/assets/images/cube.png'
 import weightless from '../../../../public/assets/images/weightless.jpg'
 import exterior from '../../../../public/assets/images/exterior.png'
+import exterior2 from '../../../../public/assets/images/exterior2.png'
+import bathroom from '../../../../public/assets/images/bathroom2.jpg'
+import interior4 from '../../../../public/assets/images/interior4.png'
 
 
 export default function Home() {
@@ -27,13 +30,18 @@ export default function Home() {
                     />
                 </h1>
             </OnScroll>
-            <p className="pb-32 text-xl text-justify">
+            <p className="text-xl text-justify">
                 I guess you could call me a <b>Software Engineer</b>,
                 but that&aposs not the only thing I&apos;d like to do with my career...
                 <br /><br />Aside from writing code across the <b>full-stack</b>, I&aposm also interested
                 in <b>computer architecture, deep learning</b> and all things <b>CGI & Design</b>
                 .
             </p>
+            <a href="/assets/documents/CV.pdf">
+                    <div className="mx-auto w-32 text-center font-display text-sm border-solid border-4 hover:bg-slate-200 hover:text-black transition-colors duration-150 cursor-pointer p-3 m-16">
+                        download resume
+                    </div>
+            </a>
             <OnScroll>
                 <h1 className="font-bold font-display text-4xl pb-10"><ClientTypeAnimation
                     sequence={["~> GRApHics &", 250, "~> GRApHics & desiG•N", 1000]} />
@@ -56,9 +64,12 @@ export default function Home() {
                     <Link href="/view/cube"><GalleryImage src={cube}/></Link>
                     <Link href="/view/mountains"><GalleryImage src={mountains}/></Link>
                     <Link href="/archviz" scroll={false}><GalleryImage src={exterior}/></Link>
+                    <Link href="/archviz" scroll={false}><GalleryImage src={exterior2}></GalleryImage></Link>
+                    <Link href="/archviz" scroll={false}><GalleryImage src={bathroom}></GalleryImage></Link>
+                    <Link href="/archviz" scroll={false}><GalleryImage src={interior4}></GalleryImage></Link>
                 </Gallery>
                 <Link href="/archviz" scroll={false}>
-                    <div className="w-32 text-center font-display text-sm border-solid border-4 hover:bg-slate-200 hover:text-black transition-colors duration-100 cursor-pointer p-1 m-16">
+                    <div className="w-32 text-center font-display text-sm border-solid border-4 hover:bg-slate-200 hover:text-black transition-colors duration-150 cursor-pointer p-1 m-16">
                         archviz gallery
                     </div>
                 </Link>
