@@ -107,7 +107,7 @@ exports[`Snapshots /home/content 1`] = `
       <b>
         Software Engineer
       </b>
-      , but that&aposs not the only thing I'd like to do with my career...
+      , but that's not the only thing I'd like to do with my career...
       <br />
       <br />
       Aside from writing code across the 
@@ -128,7 +128,7 @@ exports[`Snapshots /home/content 1`] = `
       href="/assets/documents/CV.pdf"
     >
       <div
-        class="mx-auto w-32 text-center font-display text-sm border-solid border-4 hover:bg-slate-200 hover:text-black transition-colors duration-150 cursor-pointer p-3 m-16"
+        class="mx-auto w-32 text-center font-display text-sm border-solid border-b-4 hover:bg-slate-200 hover:text-black transition-colors duration-150 cursor-pointer p-3 m-16"
       >
         download resume
       </div>
@@ -154,7 +154,7 @@ exports[`Snapshots /home/content 1`] = `
       , I decided to try it out for myself. I quickly fell down the digital rabbit hole of CGI and inhaled everything.
       <br />
       <br />
-      I find it's technical while also letting my creativity and imagination shine through. I'm especially interested in composition and colour theory, because of the transferrable uses is has across photography, design, film, rendering etc.
+      I find enjoy that it's technical while also letting my creativity and imagination shine through. I'm especially interested in composition and colour theory, because of the transferrable uses is has across photography, design, film, rendering etc.
       <br />
       <br />
       Anyway, here's some 3D renders I made in my spare time...
