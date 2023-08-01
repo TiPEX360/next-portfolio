@@ -15,6 +15,7 @@ import exterior2 from '../../../../public/assets/images/exterior2.png'
 import bathroom from '../../../../public/assets/images/bathroom2.jpg'
 import interior4 from '../../../../public/assets/images/interior4.png'
 
+const basePath: string = process.env.DEPLOY_ENV == 'github' ? '/portfolio' : ''
 
 export default function Home() {
     useEffect(() => {
@@ -32,16 +33,16 @@ export default function Home() {
             </OnScroll>
             <p className="text-xl text-justify">
                 I guess you could call me a <b>Software Engineer</b>,
-                but that&aposs not the only thing I&apos;d like to do with my career...
+                but that&apos;s not the only thing I&apos;d like to do with my career...
                 <br /><br />Aside from writing code across the <b>full-stack</b>, I&aposm also interested
                 in <b>computer architecture, deep learning</b> and all things <b>CGI & Design</b>
                 .
             </p>
-            <Link href="/assets/documents/CV.pdf">
-                    <div className="mx-auto w-32 text-center font-display text-sm border-solid border-4 hover:bg-slate-200 hover:text-black transition-colors duration-150 cursor-pointer p-3 m-16">
+            <a href={`${basePath}/assets/documents/CV.pdf`}>
+                    <div className="mx-auto w-32 text-center font-display text-sm border-solid border-b-4 hover:bg-slate-200 hover:text-black transition-colors duration-150 cursor-pointer p-3 m-16">
                         download resume
                     </div>
-            </Link>
+            </a>
             <OnScroll>
                 <h1 className="font-bold font-display text-4xl pb-10"><ClientTypeAnimation
                     sequence={["~> GRApHics &", 250, "~> GRApHics & desiG•N", 1000]} />
@@ -50,7 +51,7 @@ export default function Home() {
             <p className="pb-8 text-xl text-justify">
                 Inspired by the insane home-cooked VFX made by youtubers like <b>Corridor Digital</b> and <b>Freddie Wong</b>,
                 I decided to try it out for myself. I quickly fell down the digital rabbit hole of CGI and inhaled everything.
-                <br /><br />I find it&apos;s technical while also letting my creativity and imagination shine through.
+                <br /><br />I find enjoy that it&apos;s technical while also letting my creativity and imagination shine through.
                 I&apos;m especially interested in composition and colour theory,
                 because of the transferrable uses is has across photography, design, film, rendering etc.
                 <br /><br />
