@@ -7,7 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "predeploy": "DEPLOY_ENV=github npm run build && touch out/.nojekyll && node ghprep.js",
+    "predeploy": "NEXT_PUBLIC_DEPLOY_ENV=github npm run build && touch out/.nojekyll && node ghprep.js",
     "deploy": "node ghpages.js",
     "lint": "next lint",
     "test": "jest --",
