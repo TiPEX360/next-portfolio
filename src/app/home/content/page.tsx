@@ -34,7 +34,7 @@ export default function Home() {
             <p className="text-xl text-justify">
                 I guess you could call me a <b>Software Engineer</b>,
                 but that&apos;s not the only thing I&apos;d like to do with my career...
-                <br /><br />Aside from writing code across the <b>full-stack</b>, I&aposm also interested
+                <br /><br />Aside from writing code across the <b>full-stack</b>, I&apos;m also interested
                 in <b>computer architecture, deep learning</b> and all things <b>CGI & Design</b>
                 .
             </p>
