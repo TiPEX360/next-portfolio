@@ -14,12 +14,12 @@ describe("Snapshots", () => {
         window.scrollTo = jest.fn(() => {})
     })
 
-    test("/home/content", () => {
+    test("/content", () => {
         const {asFragment}: {asFragment: () => DocumentFragment} = render(<ContentPage />)
         expect(asFragment()).toMatchSnapshot()
     })
 
-    test("/home", () => {
+    test("/", () => {
         const {asFragment}: {asFragment: () => DocumentFragment} = render(<HomePage />)
         expect(asFragment()).toMatchSnapshot()
     })

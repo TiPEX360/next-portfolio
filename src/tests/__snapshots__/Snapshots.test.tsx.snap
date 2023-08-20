@@ -79,7 +79,7 @@ exports[`Snapshots /archviz 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Snapshots /home 1`] = `
+exports[`Snapshots / 1`] = `
 <DocumentFragment>
   <div
     class="fixed w-screen h-screen bg-slate-50 duration-1000 ease-out-expo transition-transform false top-0"
@@ -87,7 +87,7 @@ exports[`Snapshots /home 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Snapshots /home/content 1`] = `
+exports[`Snapshots /content 1`] = `
 <DocumentFragment>
   <main
     class="px-5 flex-col max-w-4xl mx-auto"

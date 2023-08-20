@@ -43,7 +43,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                     <AnimatedLetter letter='z'/> 
         </div>
         <p className="font-display text-sm ">{"(tym, for short)"}</p>
-        <Link onClick={() => document.getElementById("main")?.scrollIntoView({behavior: "smooth"})} href="/home/content" scroll={false}>
+        <Link onClick={() => document.getElementById("main")?.scrollIntoView({behavior: "smooth"})} href="/content" scroll={false}>
           <div className="w-[170px] text-center my-12 font-display text-sm border-solid border-4 hover:bg-slate-200 hover:text-black transition-colors duration-100 cursor-pointer p-1">
             let me tell you a bit about myself!
           </div>
