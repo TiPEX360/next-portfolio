@@ -10,10 +10,10 @@ export default function HomeIcon() {
     const back: () => React.ReactNode = () => <ClientTypeAnimation sequence={["< back"]} />
     const basePath: string = process.env.NEXT_PUBLIC_DEPLOY_ENV == 'github' ? '/portfolio' : ''
 
-    const homeRoutes = [`${basePath}/`, `${basePath}/content`]
+    const homeRoutes = [`${basePath}`, `${basePath}/content`]
 
     const goBack = () => {
-        if (!homeRoutes.includes(pathname)) router.push('/content')
+        if (!homeRoutes.includes(pathname.endsWith("/") ? pathname.slice(0, -1) : pathname)) router.push('/content')
         else scrollTo({top: 0})
     }
 
