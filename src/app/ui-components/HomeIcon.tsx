@@ -8,8 +8,9 @@ export default function HomeIcon() {
     const pathname: string = usePathname()
     const router: AppRouterInstance = useRouter()
     const back: () => React.ReactNode = () => <ClientTypeAnimation sequence={["< back"]} />
-    
-    const homeRoutes = ['/', '/content']
+    const basePath: string = process.env.NEXT_PUBLIC_DEPLOY_ENV == 'github' ? '/portfolio' : ''
+
+    const homeRoutes = [`${basePath}/`, `${basePath}/content`]
 
     const goBack = () => {
         if (!homeRoutes.includes(pathname)) router.push('/content')
