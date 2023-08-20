@@ -9,13 +9,14 @@ export default function HomeIcon() {
     const router: AppRouterInstance = useRouter()
     const back: () => React.ReactNode = () => <ClientTypeAnimation sequence={["< back"]} />
     
+    const homeRoutes = ['/', '/content']
+
     const goBack = () => {
-        if (!pathname.includes('/home')) router.push('/home/content')
+        if (!homeRoutes.includes(pathname)) router.push('/content')
         else scrollTo({top: 0})
     }
 
     return (
-        <div className="mix-blend-difference fixed top-0 hover:bg-white hover:text-black cursor-pointer text-3xl p-2 text-gray-200 font-display" onClick={goBack}>{pathname.includes("/home") ? "ts." : back()}</div>
-            
+        <div className="mix-blend-difference fixed top-0 hover:bg-white hover:text-black cursor-pointer text-3xl p-2 text-gray-200 font-display" onClick={goBack}>{homeRoutes.includes(pathname) ? "ts." : back()}</div>
     )
 }
