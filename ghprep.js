@@ -1,3 +1,7 @@
+/* Reorganises built file structure so each route has its own directory 
+ * and works with/without trailing slash.
+ */
+
 var fs = require('fs');
 var path = require('path');
 function find(dir) {
