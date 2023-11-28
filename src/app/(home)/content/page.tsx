@@ -4,6 +4,7 @@ import OnScroll from '../../utils/OnScroll'
 import Link from 'next/link'
 import Gallery, { GalleryImage } from '../../ui-components/Gallery'
 import { useEffect } from 'react'
+import { basePath } from '@/app/utils/url-helpers'
 
 import pancakes from '../../../../public/assets/images/pancakes.jpg'
 import mountains from '../../../../public/assets/images/mountains.png'
@@ -14,8 +15,6 @@ import exterior from '../../../../public/assets/images/exterior.png'
 import exterior2 from '../../../../public/assets/images/exterior2.png'
 import bathroom from '../../../../public/assets/images/bathroom2.jpg'
 import interior4 from '../../../../public/assets/images/interior4.png'
-
-const basePath: string = process.env.NEXT_PUBLIC_DEPLOY_ENV == 'github' ? '/portfolio' : ''
 
 export default function Home() {
     useEffect(() => {
